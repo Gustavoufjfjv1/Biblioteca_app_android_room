@@ -20,7 +20,7 @@
 ## Integração com a API e Estratégia de Sincronização
 
 ### API Escolhida: Open Library API
-O aplicativo consome os dados públicos da **https://openlibrary.org/search.json?q=harry+potter&limit=20**, uma API RESTful gratuita que fornece informações detalhadas sobre livros.
+O aplicativo consome os dados públicos da **https://openlibrary.org/**, uma API RESTful gratuita que fornece informações detalhadas sobre livros.
 ### Fluxo Single Source of Truth (SSOT)
 A interface **nunca** exibe os dados vindos diretamente da internet. O fluxo acontece da seguinte forma:
 
